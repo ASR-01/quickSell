@@ -1,0 +1,68 @@
+.card____container {
+  min-height: 5.5rem;
+  width: 18rem;
+  border: 0.1px solid rgb(220, 210, 210);
+  margin: 1rem 0 0 0;
+  border-radius: 0.5rem;
+  background-color: #f8f9fb;
+  padding: 1rem;
+  filter: drop-shadow( 0.1rem 0.1rem 0.1rem  rgba(0, 0, 0, 0.2));
+}
+
+.card____container____item1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card____container____item1 h5 {
+  color: #6b6f76;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.card____container____item2 {
+  margin: 0.3rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.card____container____item2 p {
+  cursor: pointer;
+  margin-left: 2px;
+  font-weight: 510;
+  letter-spacing: 0.5px;
+}
+.card____container____item3 {
+  color: #6b6f76;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0 0 0px;
+}
+
+.card____container____item3__icon {
+  border: 1px solid #eeeaea;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+}
+.card____container____item3____tag {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #eeeaea;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+}
+
+
+
+@media only screen and (max-width: 786px) {
+  .card____container {
+    min-height: 7rem;
+    width: 20rem;
+    margin: 1rem 0 1rem 0;
+   
+  }
+}

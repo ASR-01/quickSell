@@ -1,0 +1,94 @@
+.navbar {
+  background-color: #ffffff;
+  width: 100%;
+
+  padding: 2.3rem 5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar__btn {
+  width: 110px;
+  height: 30px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  border: 0.1px solid rgb(194, 174, 174);
+
+  align-items: center;
+  justify-content: space-around;
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
+}
+.navbar____item_0 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.navbar____item_1 {
+  margin-top: 6px;
+}
+.navbar__button {
+  gap: 3px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* Modal CSS */
+
+.modal__layout {
+  position: absolute;
+  height: 5rem;
+  width: 20rem;
+  border: 0.1px solid rgb(194, 174, 174);
+  margin: 1rem 0 0 0;
+  border-radius: 0.5rem;
+  background-color: #f8f9fb;
+}
+
+.modal____grid____container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  justify-content: space-between;
+}
+.modal___grid___item {
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  color: #949595;
+}
+
+.modal___select___input {
+  width: 7rem;
+  padding: 2px;
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 786px) {
+  .navbar {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 2rem 2.5rem;
+  }
+
+  .modal__layout {
+    width: 16rem;
+  }
+
+  .navbar__btn {
+    width: 120px;
+    height: 40px;
+  }
+
+  .navbar____item_0 {
+    font-size: larger;
+  }
+
+  .modal___grid___item {
+    font-size: 16px;
+  }
+
+  option {
+    font-size: 14px;
+  }
+}
